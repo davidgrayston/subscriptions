@@ -37,7 +37,7 @@
     },
 
     "require-dev": {
-        "drupal-composer/drupal-scaffold": "^2.0.0",
+        "drupal-composer/drupal-scaffold": "^2.0.0"
     },
 
     "require": {
