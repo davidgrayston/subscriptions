@@ -37,10 +37,12 @@
     },
 
     "require-dev": {
-
+        "drupal-composer/drupal-scaffold": "^2.0.0",
     },
 
     "require": {
+        "cweagans/composer-patches": "^1.5.0",
+        "composer/installers": "^1.0",
         "dennisdigital/subscriptions-profile" : "@dev"
     }
 }
