@@ -45,7 +45,7 @@
     },
 
     "require-dev": {
-        "drupal-composer/drupal-scaffold": "^2.0.0"
+        "drupal-composer/drupal-scaffold": "^2.0.0",
         "drush/drush": "^9.0",
         "phpunit/phpunit": "~4.8",
         "squizlabs/php_codesniffer": "2.*",
