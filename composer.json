@@ -6,6 +6,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
 
+    "config": {
+    },
+
     "repositories": [
         {
             "type": "composer",
@@ -43,6 +46,10 @@
 
     "require-dev": {
         "drupal-composer/drupal-scaffold": "^2.0.0"
+        "drush/drush": "^9.0",
+        "phpunit/phpunit": "~4.8",
+        "squizlabs/php_codesniffer": "2.*",
+        "drupal/devel": "^1.0"
     },
 
     "require": {
