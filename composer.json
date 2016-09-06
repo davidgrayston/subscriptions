@@ -37,6 +37,7 @@
           "drush/contrib/{$name}": ["type:drupal-drush"]
         },
         "patches": {
+          "enable-patching" : true
         }
     },
 
