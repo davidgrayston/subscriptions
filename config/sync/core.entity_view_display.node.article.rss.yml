@@ -1,3 +1,4 @@
+uuid: 8e3b3385-d680-4ba1-9636-e7d82fec11f8
 langcode: en
 status: true
 dependencies:
@@ -18,5 +19,6 @@ content:
     weight: 100
 hidden:
   body: true
+  comment: true
   field_image: true
   field_tags: true

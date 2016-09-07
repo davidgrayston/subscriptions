@@ -1,3 +1,4 @@
+uuid: 94f10ced-0812-4582-a39d-eefe2165d16f
 langcode: en
 status: true
 dependencies:
@@ -73,4 +74,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  comment: true

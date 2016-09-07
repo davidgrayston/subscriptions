@@ -1,3 +1,4 @@
+uuid: 1f07402f-daf7-40e6-a855-a62c23e9e423
 langcode: en
 status: true
 dependencies:
@@ -6,8 +7,6 @@ dependencies:
 name: 'Basic HTML'
 format: basic_html
 weight: 0
-roles:
-  - authenticated
 filters:
   filter_html:
     id: filter_html
