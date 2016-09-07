@@ -8,6 +8,14 @@ sites/*/private
 
 # Core
 vendor
+docroot/.*
+docroot/autoload.php
+docroot/index.php
+docroot/profiles
+docroot/robots.txt
+docroot/sites
+docroot/update.php
+docroot/web.config
 docroot/core
 docroot/modules/contrib
 docroot/theme/contrib
