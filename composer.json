@@ -15,13 +15,9 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/marcelovani/dennis_profile"
+            "type": "composer",
+            "url": "https://packagist.org"
         },
-        {
-            "type": "vcs",
-            "url": "https://github.com/marcelovani/subscriptions_suite"
-        }
     ],
 
     "scripts": {
