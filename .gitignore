@@ -8,17 +8,17 @@ sites/*/private
 
 # Core
 vendor
-docroot/.*
-docroot/autoload.php
-docroot/index.php
-docroot/profiles
-docroot/robots.txt
-docroot/sites
-docroot/update.php
-docroot/web.config
-docroot/core
-docroot/modules/contrib
-docroot/theme/contrib
+web/.*
+web/autoload.php
+web/index.php
+web/profiles
+web/robots.txt
+web/sites
+web/update.php
+web/web.config
+web/core
+web/modules/contrib
+web/theme/contrib
 
 # IDE/System folders
 .idea
