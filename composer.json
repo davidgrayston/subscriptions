@@ -17,6 +17,14 @@
         {
             "type": "composer",
             "url": "https://packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/davidgrayston/subscriptions_suite"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/davidgrayston/domain_path"
         }
     ],
 
@@ -52,6 +60,6 @@
         "cweagans/composer-patches": "^1.5.0",
         "composer/installers": "^1.0",
         "dennisdigital/dennis_profile" : "@dev",
-        "dennisdigital/subscriptions_suite" : "@dev"
+        "dennisdigital/subscriptions_suite" : "dev-8.x-domain_path"
     }
 }
