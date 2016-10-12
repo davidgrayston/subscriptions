@@ -1,0 +1,22 @@
+uuid: 78b6a107-83e0-48b0-915c-ece0994f6d01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_domain_all_affiliates
+  module:
+    - user
+id: user.user.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: user
+bundle: user
+label: 'Editor for all affiliates'
+description: 'Make this user an editor on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\domain_access\DomainAccessManager::getDefaultAllValue'
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

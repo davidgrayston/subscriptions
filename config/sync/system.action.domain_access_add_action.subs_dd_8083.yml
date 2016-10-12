@@ -1,0 +1,14 @@
+uuid: fb4e8424-77ce-4cde-93d0-e64e59de5c5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_add_action.subs_dd_8083
+label: 'Add selected content to the default domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: subs_dd_8083

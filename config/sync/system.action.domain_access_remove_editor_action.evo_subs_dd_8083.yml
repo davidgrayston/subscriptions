@@ -1,0 +1,14 @@
+uuid: d7b7935d-8514-458f-8fd5-c501eb063a84
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.evo_subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.evo_subs_dd_8083
+label: 'Remove editors from the Evo domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: evo_subs_dd_8083

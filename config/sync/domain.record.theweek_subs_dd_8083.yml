@@ -1,0 +1,11 @@
+uuid: 3174fcba-6a08-4464-bd0d-e419924b53f6
+langcode: en
+status: true
+dependencies: {  }
+id: theweek_subs_dd_8083
+domain_id: 956337349
+hostname: 'theweek_subs.dd:8083'
+name: 'The Week'
+scheme: http
+weight: 3
+is_default: false

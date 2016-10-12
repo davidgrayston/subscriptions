@@ -1,0 +1,14 @@
+uuid: 742c91f9-377e-4817-9b75-1e8b96d929f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.evo_subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_add_editor_action.evo_subs_dd_8083
+label: 'Add editors to the Evo domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: evo_subs_dd_8083

@@ -28,4 +28,6 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     weight: -1
-hidden: {  }
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true

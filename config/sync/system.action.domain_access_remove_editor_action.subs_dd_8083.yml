@@ -1,0 +1,14 @@
+uuid: 92e1bb69-1627-4343-924b-ec09c74d1c60
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.subs_dd_8083
+label: 'Remove editors from the default domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: subs_dd_8083

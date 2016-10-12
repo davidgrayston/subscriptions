@@ -1,0 +1,14 @@
+uuid: 3c3d1a5d-a13e-41c3-be07-ed4a9e5f2fcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.evo_subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_add_action.evo_subs_dd_8083
+label: 'Add selected content to the Evo domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: evo_subs_dd_8083

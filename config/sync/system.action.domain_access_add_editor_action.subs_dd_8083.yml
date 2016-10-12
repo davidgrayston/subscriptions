@@ -1,0 +1,14 @@
+uuid: 6d95a17d-d338-45f4-a820-035682c98258
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_add_editor_action.subs_dd_8083
+label: 'Add editors to the default domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: subs_dd_8083

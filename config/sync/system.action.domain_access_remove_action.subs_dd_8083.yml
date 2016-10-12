@@ -1,0 +1,14 @@
+uuid: 59392813-f806-4c49-8b12-1f642bbf2232
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_remove_action.subs_dd_8083
+label: 'Remove selected content from the default domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: subs_dd_8083

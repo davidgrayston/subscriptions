@@ -1,0 +1,14 @@
+uuid: 8da1cb25-a014-46e6-8e07-2fab9b4d330c
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.theweek_subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.theweek_subs_dd_8083
+label: 'Remove editors from the The Week domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: theweek_subs_dd_8083

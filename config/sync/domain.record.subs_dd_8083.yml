@@ -1,0 +1,11 @@
+uuid: e7478270-52b5-4ce3-8c7b-b76d666ba6f7
+langcode: en
+status: true
+dependencies: {  }
+id: subs_dd_8083
+domain_id: 385721011
+hostname: 'subs.dd:8083'
+name: default
+scheme: http
+weight: 2
+is_default: true

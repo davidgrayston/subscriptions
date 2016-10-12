@@ -23,4 +23,6 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
-hidden: {  }
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true

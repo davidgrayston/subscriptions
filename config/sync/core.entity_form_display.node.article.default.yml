@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_domain_access
+    - field.field.node.article.field_domain_all_affiliates
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
@@ -30,6 +33,17 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_domain_access:
+    type: options_buttons
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 0
+    settings:
+      display_label: true
+    third_party_settings: {  }
   field_image:
     type: image_image
     weight: 4
@@ -40,7 +54,10 @@ content:
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3
-    settings: {  }
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

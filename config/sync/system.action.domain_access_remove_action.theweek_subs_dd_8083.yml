@@ -1,0 +1,14 @@
+uuid: 75c71a85-99d0-4af8-9cd2-9ea659ca81dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.theweek_subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_remove_action.theweek_subs_dd_8083
+label: 'Remove selected content from the The Week domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: theweek_subs_dd_8083

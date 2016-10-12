@@ -1,0 +1,14 @@
+uuid: 937a7d8b-5775-457d-b288-1b5a18b5230e
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.theweek_subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_add_editor_action.theweek_subs_dd_8083
+label: 'Add editors to the The Week domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: theweek_subs_dd_8083

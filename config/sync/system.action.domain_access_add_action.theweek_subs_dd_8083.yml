@@ -1,0 +1,14 @@
+uuid: 1a12c859-86c5-4e53-8241-95300c28dffa
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.theweek_subs_dd_8083
+  module:
+    - domain_access
+id: domain_access_add_action.theweek_subs_dd_8083
+label: 'Add selected content to the The Week domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: theweek_subs_dd_8083
